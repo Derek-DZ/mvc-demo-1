@@ -1,0 +1,47 @@
+#app3{
+    position: relative;
+}
+#app3-box > .square{
+    position: absolute;
+    border: 1px solid gray;
+    left: 10vw;
+    top: 15vw;
+    margin-top: -10vw;
+    width: 10vw;
+    height: 10vw;
+}
+#app3-box > .circle{
+    position: absolute;
+    border: 1px solid gray;
+    left: 30vw;
+    top: 15vw;
+    margin-top: -10vw;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+}
+#app3-box .active {
+    animation: circle 1s forwards;
+}
+@keyframes circle {
+    0%{
+        border-radius: 0;
+    }
+    100%{
+        left: 30vw;
+        border-radius: 50%;
+    }
+}
+#app3-box .reverse{
+    animation: square 1s forwards;
+}
+@keyframes square {
+    0%{
+        left: 30vw;
+        border-radius: 50%;
+    }
+    100%{
+        left: 10vw;
+        border-radius: 0;
+    }
+}

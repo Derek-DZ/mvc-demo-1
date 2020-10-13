@@ -1,0 +1,27 @@
+#app2{
+    display: flex;
+    flex-wrap: wrap;
+}
+#app2 > .action{
+    line-height: 30px;
+    padding-left: 10px;
+    border: 1px solid red;
+    width: 50%;
+    height: 30px
+}
+#app2 > .content{
+    padding: 10px;
+    border: 1px solid red;
+    width: 100%;
+    height: calc(100% - 30px);
+}
+#app2 .invisible {
+    display: none;
+}
+#app2 .visible{
+    display: block;
+}
+#app2 .active{
+    background-color: gray;
+    color: white;
+}
