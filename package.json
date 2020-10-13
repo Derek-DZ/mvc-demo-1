@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "parcel build src/index.html --no-minify --public-url E:/JRG-task/task-53/dist/"
+    "build": "parcel build src/index.html --no-minify --public-url ./"
   },
   "name": "task-53",
   "version": "1.0.0",

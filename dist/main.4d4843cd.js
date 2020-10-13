@@ -11422,4 +11422,4 @@ _app3.default.init();
 
 _app4.default.init();
 },{"./reset.css":"AQoi","./global.css":"AQoi","./app1.js":"US5u","./app2.js":"vZ5o","./app3.js":"y8lT","./app4.js":"eWpN"}]},{},["epB2"], null)
-//# sourceMappingURL=e:/JRG-task/task-53/dist/main.4d4843cd.js.map
+//# sourceMappingURL=main.4d4843cd.js.map
