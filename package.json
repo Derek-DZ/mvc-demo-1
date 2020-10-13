@@ -1,9 +1,15 @@
 {
+  "scripts": {
+    "build": "parcel build src/index.html --no-minify --public-url E:/JRG-task/task-53/dist/"
+  },
   "name": "task-53",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "jquery": "^3.5.1"
-  }
+    "jquery": "^3.5.1",
+    "parcel": "^1.12.4"
+  },
+  "repository": "git@github.com:Derek-DZ/mvc-demo-1.git",
+  "author": "Derek_DZ <a956997493@gmail.com>"
 }
